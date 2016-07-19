@@ -8,7 +8,7 @@ ENV POSTGIS_MAJOR 2.2
 ENV POSTGIS_VERSION 2.2
 
 RUN apt-get update \
-      && apt-get install -y --no-install-recommends \
+      && apt-get install -y --no-install-recommends --fix-missing \
                  postgresql-9.5-postgis-2.2 \
                  osm2pgsql \
                  osmosis \
