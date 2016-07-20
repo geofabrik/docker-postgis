@@ -1,7 +1,7 @@
 # Docker Postgis database + Importer
 
 This postgis docker container is based on the [official postgres docker image version 9.5](https://hub.docker.com/_/postgres/) thus using debian:jessie as underlying OS.
-It creates a database 'gis' and installs the extension postgis. Further on osmosis and osm2pgsql are installed to be able to merge multiple OSM-files and import the result with osm2pgsql to the database 'gis'.
+It creates a database 'gis' owned by user 'postgres' and installs the extension postgis. Further on osmosis and osm2pgsql are installed to be able to merge multiple OSM-files and import the result with osm2pgsql to the database 'gis'.
 
 
 
