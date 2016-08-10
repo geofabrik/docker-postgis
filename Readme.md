@@ -40,3 +40,6 @@ Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 --rm                            Automatically remove the container when it exits
 -v, --volume=[]                 Bind mount a volume
 ```
+
+# credits
+The creation of this Open Source Docker container was sponsored by Siemens AG (Building Technologies Division).
